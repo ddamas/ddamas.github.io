@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 ## Hola Mundo...
 
 You can use the [editor on GitHub](https://github.com/ddamas/ddamas.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
