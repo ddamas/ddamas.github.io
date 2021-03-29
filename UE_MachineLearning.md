@@ -203,7 +203,7 @@ GridSearchCV(cv=10, estimator=DecisionTreeClassifier(), n_jobs=-1,
              param_grid={'max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]},
              scoring='accuracy', verbose=1)
 ```
-El notebook marca esta como parte de la salida anterior en Out[63], pero no debería ser una salida, lamentablemente no tengo posibilidad de instalar Python en mi equipo para probarlo. Estos parámetros son casi idénticos a los asignados a **gs_arbol** en el paso In[63], salvo la profundidad que antes era de 1..11 y ahora está de 1..10.
+El notebook marca esta como parte de la salida anterior en Out[63], pero no debería ser una salida, lamentablemente no tengo posibilidad de instalar Python en mi equipo para probarlo. Estos parámetros son casi idénticos a los asignados a **gs_arbol** en el paso In[62], salvo la profundidad que antes era de 1..11 y ahora está de 1..10.
 
 ### Análisis del Módulo 3
 En este módulo basicamente se dividen los datos en un conjunto de entrenamiento (*train 75%*) y uno de pruebas (*test 25%*), de esta manera se establecen los parámetros del modelo utilizando arboles de decisión y luego se entrena utilizando ajuste (*fit*) de precisión (*accuracy*).
